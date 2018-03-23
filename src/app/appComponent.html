@@ -1,0 +1,11 @@
+
+<div>
+  <agm-map [latitude]="lat" [longitude]="lng" (centerChange)="changelat($event)" (zoomChange)="zoomChange($event)" >
+    <!--<agm-marker [latitude]="newLat" [longitude]="newLng">-->
+      <!--<agm-info-window>Center</agm-info-window>-->
+
+    <!--</agm-marker>-->
+  </agm-map>
+
+  <button (click)="getMap()"> Get Offline</button>
+</div>
